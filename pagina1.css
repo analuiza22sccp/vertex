@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
-
 * {
   margin: 0;
   padding: 0;
@@ -142,11 +141,19 @@ header .container {
 .sobre {
   background-color: #ffeee6;
   padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#container-mvv{
+  display: flex;
+  margin-top: 70px;
+  
+
+
 }
 
 .mvv {
-  
- 
   font-size: 1.3em;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -154,6 +161,7 @@ header .container {
   width: 390px;
   height: 290px;
   margin: 20px;
+
 }
 
 .mvv h2{
