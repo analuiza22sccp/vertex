@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
+
 * {
   margin: 0;
   padding: 0;
@@ -190,8 +191,17 @@ header .container {
 
 
 /* Rodapé */
+.container-contatos{
+  color: #979797;
+  text-decoration: none;
+}
+.p-1{
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 footer {
-  background-color: #333;
+  background-color: #2b2b2b;
   color: #fff;
   text-align: center;
   padding: 20px 0;
