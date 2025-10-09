@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-left: 100px;
+}
+.sabores{
+  margin-top: -80px;
+  
+  
+}
+
+.ft{
+  
+  margin: 20px;
+  margin-right: 00px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.ft2{
+  
+  width: 120px;
+  
+}
+
+
+
+/* Header */
+header {
+  background-color: #f5c6a5;
+  padding: 20px 0;
+}
+
+header .logo {
+  font-size: 2rem;
+  color: #600000;
+  margin-left: -100px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #600000;
+  font-weight: bold;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Banner */
+.banner {
+  background-image: url('banner.jpg');
+  /* colocar imagem bonita de destaque */
+  background-size: cover;
+  background-position: center;
+  color: #600000;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.banner .btn {
+  display: inline-block;
+  background-color: #600000;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+/* Produtos */
+.produtos {
+  padding: 60px 0;
+}
+
+.produtos h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.produto {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.produto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.produto h3 {
+  margin: 15px 0 10px;
+  color: #600000;
+}
+
+.produto p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Sobre */
+.sobre {
+  background-color: #ffeee6;
+  padding: 60px 0;
+}
+
+.mvv {
+  
+ 
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #ffa77cde;
+  width: 390px;
+  height: 290px;
+  margin: 20px;
+}
+
+.mvv h2{
+  font-size: 40px;
+  color: #7c2502;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.mvv p{
+  text-align: center;
+  margin: 20px;
+  color: #000000;
+}
+
+
+
+/* Contato */
+.contato {
+  padding: 60px 0;
+}
+
+
+
+/* Rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+.img-transition {
+  transition: transform 0.3s ease;
+}
+
+#cabeçalho {
+  margin-left: 100px;
+}
+
+.logo-dama {
+  width: 80px;
+  margin-left: 10px;
+}
+
+#container h2 {
+  text-align: center;
+
+}
+
+.logo {
+  margin-right: -150px;
+}
+
+.login {
+  width: 10%;
+  height: 40px;
+  margin-bottom: 20px;
+  background-color: #444;
+  text-decoration: none;
+  border: none;
+  border-radius: 40px;
+  font-size: 1em;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.login a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+.cabeçalho {
+  font-size: 25px;
+}

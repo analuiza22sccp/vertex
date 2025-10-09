@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*determina valores no documento todo*/
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+body {
+    background-image: url(./img/Variedades-Dama.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.container {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    backdrop-filter: blur(4px);
+}
+
+.container h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em;
+}
+
+.caixa-botao {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+}
+
+.caixa-botao input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 40px;
+    outline: none;
+    color: #faf6f6;
+    padding: 20px 45px 20px 20px;
+}
+
+.caixa-botao input::placeholder {
+    color: #faf7f7;
+}
+
+ 
+.caixa-botao i {
+    position: absolute;
+    right: 20px;
+    top: 25%;
+    font-size: 20px;
+}
+
+/*  */
+.lembrar-senha {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lembrar-senha label input {
+    margin-right: 5px;
+    accent-color: #f8f7f7;
+
+}
+
+.lembrar-senha a {
+    text-decoration: none;
+    color: #f8f7f7;
+}
+
+.lembrar-senha a:hover {
+    text-decoration: underline;
+}
+
+
+.login {
+    width: 100%;
+    height: 50px;
+    background-color: #fcfaf9;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.2em;
+    color: #693b18;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.login:hover {
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: #803a11;
+    transition: 0.5s;
+}
+
+
+.registro {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.registro a {
+    text-decoration: none;
+    color: #662101;
+    font-weight: 600;
+}
+
+.registro a:hover {
+    text-decoration: underline;
+}
