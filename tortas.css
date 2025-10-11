@@ -1,0 +1,143 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-left: 100px;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.logo-dama {
+  width: 80px;
+  margin-left: 10px;
+}
+
+#cabeçalho {
+  margin-left: 100px;
+}
+
+.cabeçalho {
+  font-size: 25px;
+}
+
+
+/* Header */
+header {
+  background-color: #f5c6a5;
+  padding: 20px 0;
+}
+
+header .logo {
+  font-size: 2rem;
+  color: #600000;
+  margin-left: -100px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #600000;
+  font-weight: bold;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.login {
+  width: 10%;
+  height: 40px;
+  margin-bottom: 20px;
+  background-color: #444;
+  text-decoration: none;
+  border: none;
+  border-radius: 40px;
+  font-size: 1em;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+
+.bolos1 h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.bolos1 img {
+  width: 400px;
+  height: auto;
+  margin-bottom: 15px;
+  margin-top: 40px;
+  border-radius: 15px;
+  transition: transform 0.6s ease, box-shadow 0.6s ease, filter 0.6s ease;
+  cursor: pointer;
+}
+
+.bolos1 img:hover {
+  transform: scale(1.08) translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+.bolos1 h3 {
+  text-align: center;
+  color: black;
+
+}
+
+.bolos1 p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: center;
+
+}
+
+.bolos-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-left: 105px;
+  gap: 25px;
+  margin-left: 138px;
+}
+
+.cabeçalho {
+  font-size: 25px;
+}
+
+#h2-bolos {
+  margin-top: 20px;
+  text-align: center;
+}

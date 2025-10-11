@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+body{
+    background-image: url(./img-form/banner-dama-001.jpg);
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+} 
+.caixa{
+    width: 420px;
+    padding: 40px;
+    background-color:transparent;
+    border-radius: 20px;
+    border: 2px solid rgb(233, 106, 106);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.caixa input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 40px;
+    outline: none;
+    color: #ffffff;
+    padding: 20px 45px 20px 20px;
+    
+}
+.caixa input::placeholder {
+    color: #faf7f7;
+}
+
+h1{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+}
+.dados{
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+.enviar{
+    width: 100%;
+    height: 50px;
+    background-color: #fcfaf9;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    color: #ec7316;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    margin-top: 20px;
+    cursor: pointer;
+}
