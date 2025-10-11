@@ -94,27 +94,32 @@ header .container {
 }
 
 .bolos1 img {
-  width: 300px;
-  background-position: center;
   width: 400px;
-  height: 400px;
+  height: auto;
   margin-bottom: 15px;
   margin-top: 40px;
   border-radius: 15px;
+  transition: transform 0.6s ease, box-shadow 0.6s ease, filter 0.6s ease;
+  cursor: pointer;
 }
 
+.bolos1 img:hover {
+  transform: scale(1.08) translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+
 .bolos1 h3 {
-  margin-left: 135px;
+  text-align: center;
   color: black;
 
 }
 
 .bolos1 p {
-  margin-left: 100px;
-  margin-top: -13px;
   font-size: 1.1rem;
   font-weight: bold;
   color: rgb(0, 0, 0);
+  text-align: center;
 
 }
 
@@ -125,7 +130,7 @@ header .container {
   margin: 0 auto;
   margin-left: 105px;
   gap: 25px;
-  margin-left: 50px;
+  margin-left: 138px;
 }
 
 .cabeçalho {
