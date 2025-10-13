@@ -186,8 +186,8 @@ header .container {
 /* Contato */
 .contato {
   padding: 60px 0;
+  text-align: right;
 }
-
 
 
 /* Rodapé */
@@ -258,3 +258,93 @@ footer p {
 .cabeçalho {
   font-size: 25px;
 }
+
+.rodape-dama {
+  background-color: #efe0d7;
+  color: #4d2e1d;
+  font-family: "Merriweather", serif;
+  padding: 60px 8%;
+}
+
+.rodape-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+
+.rodape-logo {
+  flex: 1;
+  min-width: 250px;
+}
+
+.logo-footer {
+  width: 110px;
+  margin-bottom: 20px;
+}
+
+.rodape-redes a img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  transition: transform 0.3s;
+}
+
+.rodape-redes a img:hover {
+  transform: scale(1.1);
+}
+
+.hashtags, .copy {
+  margin-top: 15px;
+  font-size: 0.95rem;
+  color: #6a4c3a;
+}
+
+
+
+.rodape-contato {
+  flex: 1;
+  min-width: 250px;
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.rodape-contato h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #4d2e1d;
+  text-transform: uppercase;
+}
+
+.contato-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.contato-item span {
+  font-size: 1rem;
+  color: #6a4c3a;
+}
+
+.contato-item strong {
+  color: #4d2e1d;
+  font-weight: 700;
+}
+
+.contato-item a {
+  color: #4d2e1d;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contato-item a:hover {
+  color: #b17b57;
+}
+
