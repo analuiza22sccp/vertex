@@ -59,16 +59,16 @@ h1{
     height: 50px;
     background-color: #fcfaf9;
     border: none;
-    border-radius: 30px;
+    border-radius: 40px;
     font-size: 1.2em;
-    color: #ec7316;
-    font-weight: 500;
+    color: #693b18;
+    font-weight: 600;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     margin-top: 20px;
     cursor: pointer;
 }
 .enviar:hover{
-    background-color: white;
+    background-color: transparent;
     border: 2px solid rgb(255, 255, 255);
     color: #803a11;
     transition: 0.5s;

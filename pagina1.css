@@ -10,14 +10,17 @@
 body {
   font-family: Arial, sans-serif;
   color: #333;
+  padding-top: 100px;
 }
 
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  margin-left: 100px;
+  margin-left: 150px;
 }
+
+
 .sabores{
   margin-top: -80px;
   
@@ -45,6 +48,11 @@ body {
 header {
   background-color: #f5c6a5;
   padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 header .logo {
@@ -149,9 +157,6 @@ header .container {
 #container-mvv{
   display: flex;
   margin-top: 70px;
-  
-
-
 }
 
 .mvv {
@@ -259,6 +264,8 @@ footer p {
   font-size: 25px;
 }
 
+
+
 .rodape-dama {
   background-color: #efe0d7;
   color: #4d2e1d;
@@ -347,4 +354,6 @@ footer p {
 .contato-item a:hover {
   color: #b17b57;
 }
+
+
 

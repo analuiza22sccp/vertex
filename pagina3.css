@@ -7,6 +7,7 @@
 body {
   font-family: Arial, sans-serif;
   color: #333;
+  padding-top: 110px;
 }
 
 .container {
@@ -38,6 +39,10 @@ body {
 header {
   background-color: #f5c6a5;
   padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
 
 header .logo {
@@ -131,8 +136,9 @@ header .container {
   max-width: 1000px;
   margin: 0 auto;
   margin-left: 105px;
-  gap: 25px;
-  margin-left: 138px;
+  gap: 70px;
+  margin-left: 190px;
+
 }
 
 .cabeçalho {
