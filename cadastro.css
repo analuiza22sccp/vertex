@@ -26,7 +26,8 @@ body{
     border: 2px solid rgb(233, 106, 106);
     backdrop-filter: blur(4px);
     box-shadow: 0 0 10px rgb(255, 255, 255);
-    margin-top: -79px;
+    margin-top: -135px;
+    
 }
 .caixa input{
     width: 100%;
