@@ -17,7 +17,7 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  margin-left: 100px;
+  margin-left: 130px;
 }
 
 .container h2{
@@ -361,6 +361,5 @@ footer p {
 .contato-item a:hover {
   color: #b17b57;
 }
-
 
 
